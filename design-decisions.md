@@ -333,6 +333,55 @@ Future design should consider whether Round 3 has special rules, stronger Sellin
 
 ---
 
+## Decision 011 – Use Four Main Item Types with Tags
+
+**Date:** 10/06/26  
+**Version:** 0.1  
+**Status:** Confirmed  
+
+### Decision
+
+The game will keep four main item types:
+
+1. Armament
+2. Consumable
+3. Trinket
+4. Trade Good
+
+Each item may also have one or more tags that define special qualities, uses, or restrictions.
+
+Example tags include:
+
+- Crafted
+- Rare
+- Magical
+- Monster Part
+- Artifact
+- Black Market
+- Luxury
+- Contraband
+
+### Reason
+
+The four main item types keep the economy easy to understand, while tags add enough flexibility to support special orders, crafting, black-market deals, rare goods, and different shopkeeper strategies.
+
+This avoids needing a large list of separate resource types while still allowing cards to feel flavourful and mechanically distinct.
+
+### Impact
+
+Selling Cards, quests, crafting, Black Market actions, and shop upgrades can refer to either item types, tags, or combinations of both.
+
+Examples:
+
+- Any 2 Consumables
+- 1 Armament and 1 Trinket
+- Any Stolen item
+- 1 Crafted Armament
+- 1 Rare Trinket
+- Any 2 Monster Part items
+
+---
+
 # Future Decision Template
 
 Use this template when adding new design decisions.
@@ -356,3 +405,4 @@ Explain why this decision was made.
 
 Explain what this changes or affects in the design.
 ```
+
