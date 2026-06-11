@@ -73,6 +73,11 @@ The most common tags in this deck should be:
 | Elegant      | A luxurious item that has vlaue to nobles         |
 | Contraband   | A stolen or Black market item or object           |
 | Sacred       | An ornate item with religious or clerical value   |
+| Food         | An item that is classified as Food                |
+| Material     | An item used in Crafting                          |
+| Herb         | An item that is a plant or substance              |
+| Potion       | An alchemical creation that can be ingested       |
+| Reagent      | An alchemical item used in alchemy                |
 
 The Basic Resource Deck should generally avoid tags like **Crafted**, **Artifact**, and **Stolen**, because those belong more naturally to separate decks.
 
@@ -168,8 +173,8 @@ Target count: **24 cards**
 | Chainmail Vest       | Common       |     5 | None   | Higher-value basic armour.     | assets/card-drafts/resource-cards/armaments/chainmail-vest.png       |
 | Reinforced Buckler   | Common       |     4 | None   | Defensive Armament.            | assets/card-drafts/resource-cards/armaments/reinforced-buckler.png   |
 | Adventurer’s Kit     | Common       |     5 | None   | Flexible adventuring gear.     | assets/card-drafts/resource-cards/armaments/adventurers-kit.png      |
-| Silvered Blade       | Rare         |     6 | None   | Useful for special orders.     | assets/card-drafts/resource-cards/armaments/silvered-blade.png       |
-| Elven Longbow        | Rare         |     7 | None   | High-value ranged weapon.      | assets/card-drafts/resource-cards/armaments/elven-longbow.png        |
+| Silvered Blade       | Rare, Elegant|     6 | None   | Useful for special orders.     | assets/card-drafts/resource-cards/armaments/silvered-blade.png       |
+| Elven Longbow        | Rare, Elegant|     7 | None   | High-value ranged weapon.      | assets/card-drafts/resource-cards/armaments/elven-longbow.png        |
 | Dwarven Warhammer    | Rare         |     7 | None   | High-value weapon.             | assets/card-drafts/resource-cards/armaments/dwarven-warhammer.png    |
 | Knight’s Shield      | Rare         |     6 | None   | High-value defensive item.     | assets/card-drafts/resource-cards/armaments/knights-shield.png       |
 | Emberblade           | Magical      |     7 | None   | Magical weapon.                | assets/card-drafts/resource-cards/armaments/emberblade.png           |
