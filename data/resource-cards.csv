@@ -1,0 +1,53 @@
+Card ID,Item Deck,Main type,Tags,Card Name,Value,Reputation,Rarity,Effect,Art Notes,Asset File,Status,Balance Notes,Count of Card
+RES-ARM-001,Resource,Armament,Blade,Iron Sword,2,0,Common,???,A simple Iron Shortsword,,Idea,,6
+RES-ARM-002,Resource,Armament,Blade,Iron Dagger,1,0,Common,???,A simple Iron Dagger,,Idea,,6
+RES-ARM-003,Resource,Armament,Blunt,Iron Flail,3,0,Common,???,A simple Iron Flail,,Idea,,6
+RES-ARM-004,Resource,Armament,Bow,Simple Bow,2,0,Common,???,A simple looking Bow,,Idea,,6
+RES-ARM-005,Resource,Armament,Blunt,Iron Mace,3,0,Common,???,A simple Iron Mace,,Idea,,6
+RES-CON-001,Resource,Consumable,Potion,Healing Draught,2,0,Common,Ignore 1 Retaliation,A red liquid in a simple vial.,,Idea,,6
+RES-CON-002,Resource,Consumable,Potion,Magic Draught,1,0,Common,Refresh 1 Skill,A blue liquid in a simple vial.,,Idea,,6
+RES-CON-003,Resource,Consumable,"Reagent, Herb",Greenbloom,2,0,Common,No Effect,A simple smooth long leaf.,,Idea,,6
+RES-CON-004,Resource,Consumable,"Reagent, Monster Part",Nothic Eye,3,0,Common,No Effect,"A large eyeball, green.",,Idea,,6
+RES-CON-005,Resource,Consumable,Potion,Energy Draught,3,0,Common,Gain 2 Movement,A green liquid in a simple vial.,,Idea,,6
+RES-TRI-001,Resource,Trinket,Jewelry,Brass Ring,2,0,Common,No Effect,A simple Brass ring.,,Idea,,6
+RES-TRI-002,Resource,Trinket,Jewelry,Brass Necklace,3,0,Common,No Effect,A simple Brass necklace.,,Idea,,6
+RES-TRI-003,Resource,Trinket,Curio,Pocketwatch,1,0,Common,No Effect,A shiny bronze pocketwatch.,,Idea,,6
+RES-TRI-004,Resource,Trinket,Curio,Silver Chalice,2,0,Common,No Effect,A silvered chalice.,,Idea,,6
+RES-TRI-005,Resource,Trinket,Monster Part,Naga Skull,2,0,Common,No Effect,A long ivory skull.,,Idea,,6
+RES-TRA-001,Resource,Trade Good,Food,Meat Steak,2,0,Common,No Effect,A large hunk of meat.,,Idea,,6
+RES-TRA-002,Resource,Trade Good,Food,Golden Wheat,1,0,Common,No Effect,Golden wheat in a bundle,,Idea,,6
+RES-TRA-003,Resource,Trade Good,Material,Iron Ore,3,0,Common,No Effect,A chunk of iron ore.,,Idea,,6
+RES-TRA-004,Resource,Trade Good,Material,Lumber,2,0,Common,No Effect,a piece of lumber,,Idea,,6
+RES-TRA-005,Resource,Trade Good,Material,Skin of Fur,2,0,Common,No Effect,A brown roll of fur.,,Idea,,6
+RES-ARM-006,Resource,Armament,"Blade, Elegant",Elven Blade,5,0,Uncommon,???,A white blade with an elegant hilt.,,Idea,,4
+RES-ARM-007,Resource,Armament,"Blunt, Exotic",Orcish Warmace,5,0,Uncommon,???,A brutish mace made of solid stone.,,Idea,,4
+RES-ARM-008,Resource,Armament,"Armor, Magical",Empowered Warplate,6,0,Uncommon,???,A gleaming plate chest armor,,Idea,,4
+RES-ARM-009,Resource,Armament,"Firearm, Exotic",Pirate's Blunderbus,4,0,Uncommon,???,A bronzed blunderbus with skull decor.,,Idea,,4
+RES-ARM-010,Resource,Armament,"Armor, Elegant",Elven Magi Robes,4,0,Uncommon,???,Long flowing blood mage robes.,,Idea,,4
+RES-CON-006,Resource,Consumable,"Potion, Luxury",Super Healing Draught,4,0,Uncommon,Ignore 1 Retaliation,A red liquid in an elven vial.,,Idea,,4
+RES-CON-007,Resource,Consumable,"Sacred, Herb",King's Whisker,5,0,Uncommon,No Effect,A long silver cattail.,,Idea,,4
+RES-CON-008,Resource,Consumable,"Potion, Monster Part",Unicorn Draught,4,0,Uncommon,Refresh 1 Skill,"A blue liquid in an elven vial, unicorn horn.",,Idea,,4
+RES-CON-009,Resource,Consumable,"Reagent, Exotic",Peacock Feather,6,0,Uncommon,No Effect,A large peacock feather.,,Idea,,4
+RES-CON-010,Resource,Consumable,"Potion, Magical",Swiftfoot Draught,4,0,Uncommon,Gain 3 Movement,A green liquid in an elven vial.,,Idea,,4
+RES-TRI-006,Resource,Trinket,"Cursed, Curio",Dark Grimoire,5,0,Uncommon,No Effect,A dark tome with rough pages.,,Idea,,4
+RES-TRI-007,Resource,Trinket,"Jewelry, Elegant",Royal Necklace,6,0,Uncommon,No Effect,A regal looking necklace.,,Idea,,4
+RES-TRI-008,Resource,Trinket,"Curio, Magical",Lucky Coin,4,0,Uncommon,No Effect,"A shiny coin, magical.",,Idea,,4
+RES-TRI-009,Resource,Trinket,"Monster Part, Jewelry",Bone Ring,5,0,Uncommon,No Effect,A ring made of dragon bone.,,Idea,,4
+RES-TRI-010,Resource,Trinket,"Exotic, Magical",Scroll of Runes,4,0,Uncommon,No Effect,A scroll with runes scribbled on it.,,Idea,,4
+RES-TRA-006,Resource,Trade Good,"Food, Exotic",Purple Carrots,5,0,Uncommon,No Effect,Large purple carrots.,,Idea,,4
+RES-TRA-007,Resource,Trade Good,"Material, Elegant",Mithril,6,0,Uncommon,No Effect,A chunk of Mithril.,,Idea,,4
+RES-TRA-008,Resource,Trade Good,"Exotic, Monster Part, Food",Manticore Milk,5,0,Uncommon,No Effect,A bucket of manticore milk.,,Idea,,4
+RES-TRA-009,Resource,Trade Good,"Material, Magical",Enchanted Stone,4,0,Uncommon,No Effect,Magically enhanced stone blocks.,,Idea,,4
+RES-TRA-010,Resource,Trade Good,"Food, Sacred",Golden Banana,5,0,Uncommon,No Effect,A glowing shiny golden banana.,,Idea,,4
+RES-ARM-011,Resource,Armament,"Magical, Cursed, Blade",Skullflame Greataxe,8,1,Rare,???,A huge greataxe with a skull haft.,,Idea,,2
+RES-ARM-012,Resource,Armament,"Bow, Firearm, Monster Part",Dragonflame Crossbow,8,1,Rare,???,A dragon crossbow with trigger and horns.,,Idea,,2
+RES-ARM-013,Resource,Armament,"Armor, Exotic, Sacred",Bracelets of Power,7,1,Rare,???,Emerald bracers with gold lining,,Idea,,2
+RES-CON-011,Resource,Consumable,"Potion, Cursed, Elegant",Magilight Draught,7,1,Rare,"Ignore 1 Retaliation, Refresh 1 Skill",A purple liquid in a silvered vial.,,Idea,,2
+RES-CON-012,Resource,Consumable,"Potion, Herb, Magical",Draught of the Charger,8,1,Rare,"Gain 4 Movement, Refresh 1 Skill","A brown liquid in a silvered vial, full of petals.",,Idea,,2
+RES-CON-013,Resource,Consumable,"Reagent, Exotic, Monster Part",Kraken's Tentacle,8,1,Rare,No Effect,"A large tentacle, blue and slimy.",,Idea,,2
+RES-TRI-011,Resource,Trinket,"Magical, Jewelry, Sacred",Lost King's Crown,8,1,Rare,"Gain 1 Movement, +1 to Rolls.","A golden crown, with an emblem embedded.",,Idea,,2
+RES-TRI-012,Resource,Trinket,"Curio, Exotic, Magical",Curious Hourglass,7,1,Rare,Gain 1 Extra Adventure Action.,A glowing blue hourglass wiht red sand.,,Idea,,2
+RES-TRI-013,Resource,Trinket,"Monster Part, Cursed, Sacred",Emerald Eye of the Basilisk,8,1,Rare,"Ignore 1 Retaliation, +1 to Rolls.",A Basilisk eye made of emerald.,,Idea,,2
+RES-TRA-011,Resource,Trade Good,"Food, Magical, Herb",Blessed Ruby Radishes,8,1,Rare,No Effect,Magically blessed ruby radish.,,Idea,,2
+RES-TRA-012,Resource,Trade Good,"Material, Elegant, Exotic",Chromatic Bars,8,1,Rare,No Effect,Chromatically coloured metallic bars.,,Idea,,2
+RES-TRA-013,Resource,Trade Good,"Material, Monster Part, Cursed",Dragonhide,7,1,Rare,No Effect,Dragon hide scales.,,Idea,,2

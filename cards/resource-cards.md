@@ -1,10 +1,11 @@
 # Resource Cards
 
-This document defines the Basic Resource Deck for Shopkeeper Showdown.
+This document defines the purpose, structure, and design rules for the Basic Resource Deck in Shopkeeper Showdown.
 
-Resource Cards represent the everyday goods players can gather, buy, trade, discover, or use to fulfil basic selling opportunities.
+The actual Resource Card list should be maintained in the card database spreadsheet, not in this Markdown file.
 
-This deck does not include Crafted Goods, Artifacts, or Black Market Goods. Those are separate decks with their own card lists and rules.
+This file explains how Resource Cards work.
+The spreadsheet stores the individual card entries.
 
 ---
 
@@ -12,7 +13,9 @@ This deck does not include Crafted Goods, Artifacts, or Black Market Goods. Thos
 
 The Basic Resource Deck is the main economy deck.
 
-It should provide players with reliable goods that can be used for:
+Resource Cards represent everyday goods that players can gather, buy, trade, discover, or use to fulfil basic selling opportunities.
+
+The deck should provide reliable goods that can be used for:
 
 * Selling Cards
 * Crafting
@@ -21,13 +24,37 @@ It should provide players with reliable goods that can be used for:
 * Quests
 * Trading or conversion effects
 
-The deck should be broad enough to support all four main item types while remaining easy to understand.
+The Basic Resource Deck should be broad enough to support all four main item types while remaining easy to understand.
 
 ---
 
-## 2. Deck Size
+## 2. Relationship to Other Item Decks
 
-Current target deck size:
+The Basic Resource Deck does not include every possible item in the game.
+
+Other item decks may exist separately:
+
+| Deck                | Purpose                                      |
+| ------------------- | -------------------------------------------- |
+| Basic Resource Deck | Everyday goods and the main item economy.    |
+| Crafted Goods Deck  | Items created or improved through crafting.  |
+| Artifact Deck       | Rare, ancient, high-value, or unusual items. |
+| Black Market Deck   | Stolen, illegal, shady, or risky goods.      |
+
+All item decks may still use the same four main item types:
+
+* Armament
+* Consumable
+* Trinket
+* Trade Good
+
+The difference between decks is how the cards enter play and what kind of gameplay they support.
+
+---
+
+## 3. Deck Size
+
+Current target deck size for the Basic Resource Deck:
 
 | Item Type   | Number of Cards |
 | ----------- | --------------: |
@@ -39,9 +66,11 @@ Current target deck size:
 
 This number is intended to support a 4–6 player game where players may gain several resources during the Adventure and Town phases.
 
+The exact card count may change after testing.
+
 ---
 
-## 3. Main Item Types
+## 4. Main Item Types
 
 Every Resource Card has exactly one main item type.
 
@@ -56,252 +85,328 @@ These types are used by Selling Cards, crafting, quests, upgrades, and other gam
 
 ---
 
-## 4. Tags on Resource Cards
+## 5. Armaments
 
-Resource Cards may have tags, but the Basic Resource Deck should use tags lightly.
+Armaments are weapons, armour, shields, tools, and combat equipment.
 
-The most common tags in this deck should be:
+They represent goods wanted by adventurers, guards, soldiers, monster hunters, and travelling heroes.
 
-| Tag          | Use                                               |
-| ------------ | ------------------------------------------------- |
-| Common       | A standard, reliable item.                        |
-| Rare         | A more valuable or harder-to-find item.           |
-| Magical      | An item with magical properties.                  |
-| Monster Part | An item taken from a creature or dangerous beast. |
-| Exotic       | A rare, strange, far-travelled, luxury item       |
-| Cursed       | High value, but comes with risky effects          |
-| Elegant      | A luxurious item that has vlaue to nobles         |
-| Contraband   | A stolen or Black market item or object           |
-| Sacred       | An ornate item with religious or clerical value   |
-| Food         | An item that is classified as Food                |
-| Material     | An item used in Crafting                          |
-| Herb         | An item that is a plant or substance              |
-| Potion       | An alchemical creation that can be ingested       |
-| Reagent      | An alchemical item used in alchemy                |
+Example Armament concepts:
+
+* Swords
+* Shields
+* Bows
+* Armour
+* Daggers
+* Adventuring gear
+* Magical weapons
+* Monster-bone weapons
+
+Common uses:
+
+* Hero Orders
+* Guard contracts
+* Combat-focused Selling Cards
+* Crafting recipes
+* Adventure-related upgrades
+
+---
+
+## 6. Consumables
+
+Consumables are items that are used up, eaten, drunk, thrown, burned, or activated.
+
+They represent practical supplies, potions, food, medicines, and single-use magical goods.
+
+Example Consumable concepts:
+
+* Potions
+* Food
+* Medicine
+* Scrolls
+* Bombs
+* Oils
+* Rations
+* Antidotes
+* Alchemical mixtures
+
+Common uses:
+
+* Adventurer supply orders
+* Alchemy Orders
+* Emergency requests
+* Healing or utility effects
+* Fast, flexible sales
+
+---
+
+## 7. Trinkets
+
+Trinkets are jewellery, charms, curios, relics, keepsakes, and small valuable items.
+
+They represent goods wanted by nobles, collectors, mages, temples, travellers, and wealthy visitors.
+
+Example Trinket concepts:
+
+* Rings
+* Lockets
+* Charms
+* Brooches
+* Music boxes
+* Prayer beads
+* Lucky coins
+* Decorative idols
+* Magical curios
+
+Common uses:
+
+* Noble commissions
+* Collector requests
+* Reputation-focused sales
+* Magical orders
+* Luxury goods
+
+---
+
+## 8. Trade Goods
+
+Trade Goods are raw materials, cargo, ingredients, supplies, and bulk goods.
+
+They represent the practical backbone of the economy and are often used for crafting, upgrades, and large contracts.
+
+Example Trade Good concepts:
+
+* Ore
+* Cloth
+* Wood
+* Grain
+* Leather
+* Spices
+* Herbs
+* Ingots
+* Monster hides
+* Alchemical ingredients
+
+Common uses:
+
+* Business Orders
+* Crafting
+* Bulk contracts
+* Upgrade costs
+* Town actions
+* Resource conversion
+
+---
+
+## 9. Tags on Resource Cards
+
+Resource Cards may have tags, but the Basic Resource Deck should use tags carefully.
+
+Tags add extra meaning to a card and allow Selling Cards, quests, upgrades, and Town actions to ask for more specific items.
+
+Example requirements using tags:
+
+* Any 1 Rare item
+* Any 2 Magical items
+* 1 Elegant Trinket
+* 1 Food Consumable
+* 1 Material Trade Good
+* 1 Sacred item
+
+---
+
+## 10. Current Tag List
+
+The current working tag list includes:
+
+| Tag          | Meaning                                                          |
+| ------------ | ---------------------------------------------------------------- |
+| Common       | A standard, reliable item.                                       |
+| Rare         | A more valuable or harder-to-find item.                          |
+| Magical      | An item with magical properties.                                 |
+| Monster Part | An item taken from a creature or dangerous beast.                |
+| Exotic       | A rare, strange, far-travelled, or unusual item.                 |
+| Cursed       | A high-value or unusual item that may carry risk.                |
+| Elegant      | A luxurious or refined item valued by nobles and wealthy buyers. |
+| Contraband   | A risky, illegal, stolen, or black-market item.                  |
+| Sacred       | An ornate or holy item with religious or clerical value.         |
+| Food         | An item classified as food.                                      |
+| Material     | An item used in crafting or construction.                        |
+| Herb         | A plant, herb, or natural substance.                             |
+| Potion       | An alchemical creation that can be ingested or used.             |
+| Reagent      | An alchemical item used in recipes or rituals.                   |
 
 The Basic Resource Deck should generally avoid tags like **Crafted**, **Artifact**, and **Stolen**, because those belong more naturally to separate decks.
 
----
-
-## 5. Resource Card Anatomy
-
-Each Resource Card should include:
-
-| Field     | Purpose                                       |
-| --------- | --------------------------------------------- |
-| Card Name | The name of the resource.                     |
-| Item Type | Armament, Consumable, Trinket, or Trade Good. |
-| Tags      | Any additional qualities the card has.        |
-| Value     | The card’s base coin value.                   |
-| Effect    | Any special rule, if the card has one.        |
-| Notes     | Design notes, balance notes, or source notes. |
-| Asset     | File path for the card image, if designed.    |
-
-Example:
-
-```text
-Name: Iron Sword
-Item Type: Armament
-Tags: Common
-Value: 3
-Effect: None
-Notes: Basic low-value Armament.
-Asset: assets/card-drafts/resource-cards/armaments/iron-sword.png
-```
+Contraband may appear rarely in the Basic Resource Deck, but should mostly belong to the Black Market Deck.
 
 ---
 
-## 6. Value Bands
+## 11. Resource Card Anatomy
+
+Each Resource Card should include the following fields in the spreadsheet:
+
+| Field         | Purpose                                                   |
+| ------------- | --------------------------------------------------------- |
+| Card ID       | Unique code for tracking the card.                        |
+| Card Name     | The name of the resource.                                 |
+| Deck          | Basic Resource, Crafted Goods, Artifact, or Black Market. |
+| Item Type     | Armament, Consumable, Trinket, or Trade Good.             |
+| Tags          | Any additional qualities the card has.                    |
+| Value         | The card’s base coin value.                               |
+| Rarity        | Common, Uncommon, Rare, or Special.                       |
+| Source        | Where the card usually comes from.                        |
+| Effect        | Any special rule, if the card has one.                    |
+| Selling Notes | Notes on what orders or customers may want this item.     |
+| Art Notes     | Visual notes or art direction.                            |
+| Asset File    | File path for the card image, if designed.                |
+| Status        | Idea, Drafted, Designed, Tested, or Final.                |
+| Balance Notes | Notes from testing or review.                             |
+
+Example spreadsheet row:
+
+| Card ID     | Card Name  | Deck           | Item Type | Tags   | Value | Rarity | Source             | Effect | Status  |
+| ----------- | ---------- | -------------- | --------- | ------ | ----: | ------ | ------------------ | ------ | ------- |
+| RES-ARM-001 | Iron Sword | Basic Resource | Armament  | Common |     3 | Common | Adventure / Market | None   | Drafted |
+
+---
+
+## 12. Value Bands
 
 Resource Cards should generally sit within simple value bands.
 
-| Value | Meaning                                                         |
-| ----: | --------------------------------------------------------------- |
-|   1–2 | Very low-value filler item                                      |
-|   3–4 | Standard basic item                                             |
-|   5–6 | Strong basic item or lightly tagged item                        |
-|   7–8 | Rare or magical item                                            |
-|    9+ | Usually reserved for Crafted Goods, Artifacts, or special decks |
+| Value | Meaning                                                          |
+| ----: | ---------------------------------------------------------------- |
+|   1–2 | Very low-value filler item.                                      |
+|   3–4 | Standard basic item.                                             |
+|   5–6 | Strong basic item or lightly tagged item.                        |
+|   7–8 | Rare, magical, elegant, or monster-part item.                    |
+|    9+ | Usually reserved for Crafted Goods, Artifacts, or special decks. |
 
-The Basic Resource Deck should mostly contain values from **2 to 6**, with only a small number of cards reaching **7 or 8**.
+The Basic Resource Deck should mostly contain values from **2 to 6**, with only a smaller number of cards reaching **7 or 8**.
 
 ---
 
-## 7. Suggested Distribution Per Item Type
+## 13. Suggested Distribution Per Item Type
 
-Each item type currently has 24 cards.
+Each item type currently targets 24 cards.
 
 Suggested spread per type:
 
 | Category                              | Cards Per Type |
 | ------------------------------------- | -------------: |
-| Common/basic items                    |             14 |
-| Rare items                            |              4 |
-| Magical items                         |              3 |
-| Monster Part / creature-related items |              3 |
+| Common/basic items                    |             12 |
+| Rare items                            |              3 |
+| Magical items                         |              2 |
+| Monster Part / creature-related items |              2 |
+| Elegant / luxury-style items          |              2 |
+| Material / practical-use items        |              2 |
+| Flexible or experimental tag slot     |              1 |
 | **Total**                             |         **24** |
 
-Across the full 96-card deck, this gives:
+Across the full 96-card Basic Resource Deck, this gives:
 
 | Category                              | Total Cards |
 | ------------------------------------- | ----------: |
-| Common/basic items                    |          56 |
-| Rare items                            |          16 |
-| Magical items                         |          12 |
-| Monster Part / creature-related items |          12 |
+| Common/basic items                    |          48 |
+| Rare items                            |          12 |
+| Magical items                         |           8 |
+| Monster Part / creature-related items |           8 |
+| Elegant / luxury-style items          |           8 |
+| Material / practical-use items        |           8 |
+| Flexible or experimental tag slots    |           4 |
 | **Total**                             |      **96** |
 
----
-
-## 8. Armament Resource Cards
-
-Armaments are weapons, armour, shields, tools, and combat equipment.
-
-Target count: **24 cards**
-
-| Card Name            | Tags         | Value | Effect | Notes                          | Asset                                                                |
-| -------------------- | ------------ | ----: | ------ | ------------------------------ | -------------------------------------------------------------------- |
-| Iron Sword           | Common       |     3 | None   | Basic Armament.                | assets/card-drafts/resource-cards/armaments/iron-sword.png           |
-| Wooden Shield        | Common       |     2 | None   | Cheap defensive item.          | assets/card-drafts/resource-cards/armaments/wooden-shield.png        |
-| Hunter’s Bow         | Common       |     4 | None   | Standard ranged weapon.        | assets/card-drafts/resource-cards/armaments/hunters-bow.png          |
-| Travelling Spear     | Common       |     3 | None   | Basic adventurer weapon.       | assets/card-drafts/resource-cards/armaments/travelling-spear.png     |
-| Leather Armour       | Common       |     4 | None   | Basic armour.                  | assets/card-drafts/resource-cards/armaments/leather-armour.png       |
-| Rusted Axe           | Common       |     2 | None   | Low-value weapon.              | assets/card-drafts/resource-cards/armaments/rusted-axe.png           |
-| Guard’s Helmet       | Common       |     3 | None   | Basic defensive gear.          | assets/card-drafts/resource-cards/armaments/guards-helmet.png        |
-| Bundle of Arrows     | Common       |     2 | None   | Cheap adventuring supplies.    | assets/card-drafts/resource-cards/armaments/bundle-of-arrows.png     |
-| Steel Dagger         | Common       |     4 | None   | Small but reliable weapon.     | assets/card-drafts/resource-cards/armaments/steel-dagger.png         |
-| Chainmail Vest       | Common       |     5 | None   | Higher-value basic armour.     | assets/card-drafts/resource-cards/armaments/chainmail-vest.png       |
-| Reinforced Buckler   | Common       |     4 | None   | Defensive Armament.            | assets/card-drafts/resource-cards/armaments/reinforced-buckler.png   |
-| Adventurer’s Kit     | Common       |     5 | None   | Flexible adventuring gear.     | assets/card-drafts/resource-cards/armaments/adventurers-kit.png      |
-| Silvered Blade       | Rare, Elegant|     6 | None   | Useful for special orders.     | assets/card-drafts/resource-cards/armaments/silvered-blade.png       |
-| Elven Longbow        | Rare, Elegant|     7 | None   | High-value ranged weapon.      | assets/card-drafts/resource-cards/armaments/elven-longbow.png        |
-| Dwarven Warhammer    | Rare         |     7 | None   | High-value weapon.             | assets/card-drafts/resource-cards/armaments/dwarven-warhammer.png    |
-| Knight’s Shield      | Rare         |     6 | None   | High-value defensive item.     | assets/card-drafts/resource-cards/armaments/knights-shield.png       |
-| Emberblade           | Magical      |     7 | None   | Magical weapon.                | assets/card-drafts/resource-cards/armaments/emberblade.png           |
-| Frostguard Mail      | Magical      |     8 | None   | Magical armour.                | assets/card-drafts/resource-cards/armaments/frostguard-mail.png      |
-| Wand of Sparks       | Magical      |     6 | None   | Magical combat tool.           | assets/card-drafts/resource-cards/armaments/wand-of-sparks.png       |
-| Basilisk Fang Dagger | Monster Part |     6 | None   | Made from a creature part.     | assets/card-drafts/resource-cards/armaments/basilisk-fang-dagger.png |
-| Wyvern-Scale Shield  | Monster Part |     7 | None   | Creature-based defensive item. | assets/card-drafts/resource-cards/armaments/wyvern-scale-shield.png  |
-| Manticore Spine Whip | Monster Part |     7 | None   | Creature-based weapon.         | assets/card-drafts/resource-cards/armaments/manticore-spine-whip.png |
-| Spare Armament Slot  | TBD          |   TBD | TBD    | Placeholder.                   | TBD                                                                  |
-| Spare Armament Slot  | TBD          |   TBD | TBD    | Placeholder.                   | TBD                                                                  |
+This distribution is only a starting point and should be adjusted after testing.
 
 ---
 
-## 9. Consumable Resource Cards
+## 14. Spreadsheet as the Source of Truth
 
-Consumables are potions, food, medicine, scrolls, bombs, oils, and other items that are used up.
+The spreadsheet should be the source of truth for the actual card list.
 
-Target count: **24 cards**
+This Markdown file should not contain the full list of Resource Cards.
 
-| Card Name             | Tags         | Value | Effect | Notes                        | Asset                                                                  |
-| --------------------- | ------------ | ----: | ------ | ---------------------------- | ---------------------------------------------------------------------- |
-| Healing Potion        | Common       |     3 | None   | Basic Consumable.            | assets/card-drafts/resource-cards/consumables/healing-potion.png       |
-| Ration Pack           | Common       |     2 | None   | Cheap supply item.           | assets/card-drafts/resource-cards/consumables/ration-pack.png          |
-| Lantern Oil           | Common       |     2 | None   | Utility consumable.          | assets/card-drafts/resource-cards/consumables/lantern-oil.png          |
-| Smoke Bomb            | Common       |     4 | None   | Adventuring tool.            | assets/card-drafts/resource-cards/consumables/smoke-bomb.png           |
-| Antidote Vial         | Common       |     3 | None   | Medicine.                    | assets/card-drafts/resource-cards/consumables/antidote-vial.png        |
-| Trail Biscuits        | Common       |     2 | None   | Low-value food.              | assets/card-drafts/resource-cards/consumables/trail-biscuits.png       |
-| Fire Flask            | Common       |     5 | None   | High-value basic Consumable. | assets/card-drafts/resource-cards/consumables/fire-flask.png           |
-| Stamina Tonic         | Common       |     4 | None   | Adventuring consumable.      | assets/card-drafts/resource-cards/consumables/stamina-tonic.png        |
-| Bandage Roll          | Common       |     2 | None   | Cheap medical item.          | assets/card-drafts/resource-cards/consumables/bandage-roll.png         |
-| Preserved Meat        | Common       |     3 | None   | Food supply.                 | assets/card-drafts/resource-cards/consumables/preserved-meat.png       |
-| Torch Bundle          | Common       |     3 | None   | Exploration supply.          | assets/card-drafts/resource-cards/consumables/torch-bundle.png         |
-| Chalk and Twine       | Common       |     2 | None   | Dungeon supply item.         | assets/card-drafts/resource-cards/consumables/chalk-and-twine.png      |
-| Dwarven Ale Keg       | Rare         |     6 | None   | Rare drink.                  | assets/card-drafts/resource-cards/consumables/dwarven-ale-keg.png      |
-| Moonberry Wine        | Rare         |     7 | None   | Rare luxury drink.           | assets/card-drafts/resource-cards/consumables/moonberry-wine.png       |
-| Phoenix Pepper Sauce  | Rare         |     6 | None   | Rare food item.              | assets/card-drafts/resource-cards/consumables/phoenix-pepper-sauce.png |
-| Royal Remedy          | Rare         |     7 | None   | High-value medicine.         | assets/card-drafts/resource-cards/consumables/royal-remedy.png         |
-| Scroll of Sparks      | Magical      |     6 | None   | Magical scroll.              | assets/card-drafts/resource-cards/consumables/scroll-of-sparks.png     |
-| Bottled Breeze        | Magical      |     7 | None   | Magical utility item.        | assets/card-drafts/resource-cards/consumables/bottled-breeze.png       |
-| Glowcap Tonic         | Magical      |     7 | None   | Magical potion.              | assets/card-drafts/resource-cards/consumables/glowcap-tonic.png        |
-| Troll Fat Salve       | Monster Part |     5 | None   | Creature-based medicine.     | assets/card-drafts/resource-cards/consumables/troll-fat-salve.png      |
-| Slime Jelly Jar       | Monster Part |     5 | None   | Creature ingredient.         | assets/card-drafts/resource-cards/consumables/slime-jelly-jar.png      |
-| Powdered Harpy Claw   | Monster Part |     6 | None   | Monster ingredient.          | assets/card-drafts/resource-cards/consumables/powdered-harpy-claw.png  |
-| Spare Consumable Slot | TBD          |   TBD | TBD    | Placeholder.                 | TBD                                                                    |
-| Spare Consumable Slot | TBD          |   TBD | TBD    | Placeholder.                 | TBD                                                                    |
+Use the spreadsheet for:
+
+* Card names
+* Card IDs
+* Deck assignment
+* Item types
+* Tags
+* Values
+* Effects
+* Rarity
+* Status
+* Balance notes
+* Asset paths
+
+Use this Markdown file for:
+
+* Design rules
+* Deck purpose
+* Card anatomy
+* Tag guidance
+* Value guidance
+* Distribution targets
+* Notes for future revision
 
 ---
 
-## 10. Trinket Resource Cards
+## 15. Asset Storage
 
-Trinkets are jewellery, charms, curios, relics, keepsakes, and small valuable items.
+Designed Resource Card images should be stored in:
 
-Target count: **24 cards**
+```text
+assets/card-drafts/resource-cards/
+```
 
-| Card Name              | Tags         | Value | Effect | Notes                        | Asset                                                                 |
-| ---------------------- | ------------ | ----: | ------ | ---------------------------- | --------------------------------------------------------------------- |
-| Silver Ring            | Common       |     3 | None   | Basic Trinket.               | assets/card-drafts/resource-cards/trinkets/silver-ring.png            |
-| Lucky Charm            | Common       |     2 | None   | Cheap charm.                 | assets/card-drafts/resource-cards/trinkets/lucky-charm.png            |
-| Brass Locket           | Common       |     3 | None   | Basic keepsake.              | assets/card-drafts/resource-cards/trinkets/brass-locket.png           |
-| Painted Idol           | Common       |     4 | None   | Decorative trinket.          | assets/card-drafts/resource-cards/trinkets/painted-idol.png           |
-| Glass Beads            | Common       |     2 | None   | Low-value trinket.           | assets/card-drafts/resource-cards/trinkets/glass-beads.png            |
-| Merchant’s Brooch      | Common       |     4 | None   | Practical status item.       | assets/card-drafts/resource-cards/trinkets/merchants-brooch.png       |
-| Bone Dice              | Common       |     3 | None   | Game/gambling trinket.       | assets/card-drafts/resource-cards/trinkets/bone-dice.png              |
-| Tiny Music Box         | Common       |     5 | None   | Higher-value common trinket. | assets/card-drafts/resource-cards/trinkets/tiny-music-box.png         |
-| Copper Bracelet        | Common       |     2 | None   | Cheap jewellery.             | assets/card-drafts/resource-cards/trinkets/copper-bracelet.png        |
-| Polished Shell Charm   | Common       |     3 | None   | Decorative charm.            | assets/card-drafts/resource-cards/trinkets/polished-shell-charm.png   |
-| Wax Seal Stamp         | Common       |     4 | None   | Merchant-themed trinket.     | assets/card-drafts/resource-cards/trinkets/wax-seal-stamp.png         |
-| Pocket Sundial         | Common       |     5 | None   | Useful small device.         | assets/card-drafts/resource-cards/trinkets/pocket-sundial.png         |
-| Sapphire Pendant       | Rare         |     7 | None   | Valuable jewellery.          | assets/card-drafts/resource-cards/trinkets/sapphire-pendant.png       |
-| Noble’s Signet         | Rare         |     6 | None   | High-status trinket.         | assets/card-drafts/resource-cards/trinkets/nobles-signet.png          |
-| Pearl Comb             | Rare         |     6 | None   | Luxury trinket.              | assets/card-drafts/resource-cards/trinkets/pearl-comb.png             |
-| Golden Prayer Bead     | Rare         |     7 | None   | Rare religious item.         | assets/card-drafts/resource-cards/trinkets/golden-prayer-bead.png     |
-| Whispering Amulet      | Magical      |     7 | None   | Magical jewellery.           | assets/card-drafts/resource-cards/trinkets/whispering-amulet.png      |
-| Floating Coin          | Magical      |     6 | None   | Magical curiosity.           | assets/card-drafts/resource-cards/trinkets/floating-coin.png          |
-| Glowstone Charm        | Magical      |     6 | None   | Magical charm.               | assets/card-drafts/resource-cards/trinkets/glowstone-charm.png        |
-| Gryphon Feather Brooch | Monster Part |     6 | None   | Creature-derived trinket.    | assets/card-drafts/resource-cards/trinkets/gryphon-feather-brooch.png |
-| Kraken Tooth Pendant   | Monster Part |     7 | None   | Sea monster trinket.         | assets/card-drafts/resource-cards/trinkets/kraken-tooth-pendant.png   |
-| Cockatrice Eye Marble  | Monster Part |     6 | None   | Creature-based curio.        | assets/card-drafts/resource-cards/trinkets/cockatrice-eye-marble.png  |
-| Spare Trinket Slot     | TBD          |   TBD | TBD    | Placeholder.                 | TBD                                                                   |
-| Spare Trinket Slot     | TBD          |   TBD | TBD    | Placeholder.                 | TBD                                                                   |
+Suggested folders:
+
+```text
+assets/card-drafts/resource-cards/armaments/
+assets/card-drafts/resource-cards/consumables/
+assets/card-drafts/resource-cards/trinkets/
+assets/card-drafts/resource-cards/trade-goods/
+```
+
+Example asset paths:
+
+```text
+assets/card-drafts/resource-cards/armaments/iron-sword.png
+assets/card-drafts/resource-cards/consumables/healing-potion.png
+assets/card-drafts/resource-cards/trinkets/silver-ring.png
+assets/card-drafts/resource-cards/trade-goods/crate-of-ore.png
+```
 
 ---
 
-## 11. Trade Good Resource Cards
-
-Trade Goods are raw materials, cargo, ingredients, supplies, and bulk goods.
-
-Target count: **24 cards**
-
-| Card Name             | Tags         | Value | Effect | Notes                        | Asset                                                                |
-| --------------------- | ------------ | ----: | ------ | ---------------------------- | -------------------------------------------------------------------- |
-| Crate of Ore          | Common       |     3 | None   | Basic Trade Good.            | assets/card-drafts/resource-cards/trade-goods/crate-of-ore.png       |
-| Bundle of Cloth       | Common       |     2 | None   | Basic material.              | assets/card-drafts/resource-cards/trade-goods/bundle-of-cloth.png    |
-| Sack of Grain         | Common       |     2 | None   | Basic food cargo.            | assets/card-drafts/resource-cards/trade-goods/sack-of-grain.png      |
-| Timber Planks         | Common       |     3 | None   | Building material.           | assets/card-drafts/resource-cards/trade-goods/timber-planks.png      |
-| Leather Bundle        | Common       |     3 | None   | Crafting material.           | assets/card-drafts/resource-cards/trade-goods/leather-bundle.png     |
-| Spice Jar             | Common       |     4 | None   | Valuable common cargo.       | assets/card-drafts/resource-cards/trade-goods/spice-jar.png          |
-| Wool Bale             | Common       |     2 | None   | Basic cargo.                 | assets/card-drafts/resource-cards/trade-goods/wool-bale.png          |
-| Beeswax Blocks        | Common       |     3 | None   | Crafting material.           | assets/card-drafts/resource-cards/trade-goods/beeswax-blocks.png     |
-| Salted Fish Crate     | Common       |     3 | None   | Food cargo.                  | assets/card-drafts/resource-cards/trade-goods/salted-fish-crate.png  |
-| Clay Jugs             | Common       |     2 | None   | Low-value cargo.             | assets/card-drafts/resource-cards/trade-goods/clay-jugs.png          |
-| Iron Ingots           | Common       |     5 | None   | Strong common material.      | assets/card-drafts/resource-cards/trade-goods/iron-ingots.png        |
-| Herb Bundle           | Common       |     4 | None   | Alchemy/cooking material.    | assets/card-drafts/resource-cards/trade-goods/herb-bundle.png        |
-| Silk Roll             | Rare         |     6 | None   | Rare material.               | assets/card-drafts/resource-cards/trade-goods/silk-roll.png          |
-| Saffron Pouch         | Rare         |     7 | None   | Rare spice.                  | assets/card-drafts/resource-cards/trade-goods/saffron-pouch.png      |
-| Moonstone Chunk       | Rare         |     7 | None   | Rare mineral.                | assets/card-drafts/resource-cards/trade-goods/moonstone-chunk.png    |
-| Deepwood Resin        | Rare         |     6 | None   | Rare crafting material.      | assets/card-drafts/resource-cards/trade-goods/deepwood-resin.png     |
-| Arcane Ink            | Magical      |     6 | None   | Magical crafting material.   | assets/card-drafts/resource-cards/trade-goods/arcane-ink.png         |
-| Glowmoss Crate        | Magical      |     7 | None   | Magical plant cargo.         | assets/card-drafts/resource-cards/trade-goods/glowmoss-crate.png     |
-| Starfallen Dust       | Magical      |     8 | None   | High-value magical material. | assets/card-drafts/resource-cards/trade-goods/starfallen-dust.png    |
-| Basilisk Hide         | Monster Part |     6 | None   | Creature material.           | assets/card-drafts/resource-cards/trade-goods/basilisk-hide.png      |
-| Troll Bone Bundle     | Monster Part |     5 | None   | Creature material.           | assets/card-drafts/resource-cards/trade-goods/troll-bone-bundle.png  |
-| Wyvern Venom Gland    | Monster Part |     7 | None   | Creature ingredient.         | assets/card-drafts/resource-cards/trade-goods/wyvern-venom-gland.png |
-| Spare Trade Good Slot | TBD          |   TBD | TBD    | Placeholder.                 | TBD                                                                  |
-| Spare Trade Good Slot | TBD          |   TBD | TBD    | Placeholder.                 | TBD                                                                  |
-
----
-
-## 12. Notes for Future Revision
+## 16. Notes for Future Revision
 
 Things to review after testing:
 
 * Whether 96 Basic Resource Cards is enough for 4–6 players.
-* Whether the deck needs duplicate cards or all unique cards.
-* Whether values are too flat or too generous.
+* Whether the Basic Resource Deck needs duplicate cards or all unique cards.
+* Whether the value bands are too flat or too generous.
 * Whether Monster Part cards should remain in the Basic Resource Deck or move mostly into Monster rewards.
-* Whether Rare and Magical cards should appear often enough.
+* Whether Rare and Magical cards appear often enough.
 * Whether Selling Cards ask for item types too often or tags too often.
 * Whether Trade Goods are too broad compared to the other item types.
 * Whether basic cards need small effects, or whether effects should be reserved for special decks.
+* Whether Contraband should appear in the Basic Resource Deck or only in the Black Market Deck.
+* Whether Food, Potion, Herb, Material, and Reagent create enough useful variety without becoming too specific.
+
+---
+
+## 17. Related Documents
+
+Related files:
+
+* `components/items-and-tags.md`
+* `cards/crafted-goods-cards.md`
+* `cards/artifact-cards.md`
+* `cards/black-market-cards.md`
+* `cards/selling-cards.md`
+* `data/Shopkeeper_Showdown_Card_Database.xlsx`
+* `design-decisions.md`
+* `CHANGELOG.md`

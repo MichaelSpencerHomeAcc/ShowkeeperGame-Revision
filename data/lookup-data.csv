@@ -1,0 +1,61 @@
+Category,Value,Code,Description,Use In Prototype,Notes
+Deck,Resource,RES,Basic Resource Deck,Yes,Everyday goods and the main economy deck
+Deck,Crafted Goods,CRF,Crafted Goods Deck,Yes,Goods created or improved through crafting
+Deck,Artifact,ART,Artifact Deck,Yes,Rare ancient or powerful items
+Deck,Black Market,BLK,Black Market Deck,Yes,Stolen illegal or shady goods
+Deck,Alchemical,ALC,Alchemical Deck,Maybe,Special potions reagents and mixtures if alchemy becomes its own deck
+Deck,Selling,SEL,Selling Cards Deck,Yes,Orders visitors contracts commissions and deals
+Main Type,Armament,ARM,Weapons armour shields tools and adventuring gear,Yes,One of the four core item types
+Main Type,Consumable,CON,Potions food scrolls bombs medicine and single-use items,Yes,One of the four core item types
+Main Type,Trinket,TRI,Jewellery charms curios relics and small valuables,Yes,One of the four core item types
+Main Type,Trade Good,TRA,Raw materials cargo bulk goods and ingredients,Yes,One of the four core item types
+Tag,Common,,Standard reliable item,Yes,Useful for simple orders and basic goods
+Tag,Rare,,Harder-to-find or higher-value item,Yes,Useful for premium orders
+Tag,Magical,,Item with magical properties,Yes,Useful for arcane orders and magical customers
+Tag,Monster Part,,Item taken from a creature or dangerous beast,Yes,Useful for hunters alchemists and crafters
+Tag,Exotic,,Rare strange far-travelled or unusual item,Yes,Useful for collectors and premium sales
+Tag,Cursed,,Unusual item that may carry risk,Maybe,Good for risk reward cards
+Tag,Elegant,,Luxurious or refined item,Yes,Useful for nobles collectors and reputation sales
+Tag,Contraband,,Risky illegal or black-market item,Yes,Mostly for Black Market cards
+Tag,Sacred,,Holy religious or clerical item,Maybe,Useful for temples clerics and paladins
+Tag,Food,,Food item,Yes,Useful for Consumables and town orders
+Tag,Material,,Crafting or construction material,Yes,Useful for Trade Goods and upgrades
+Tag,Herb,,Plant herb or natural substance,Yes,Useful for alchemy and nature-themed cards
+Tag,Potion,,Alchemical creation that can be used or consumed,Yes,Useful for Consumables and alchemy orders
+Tag,Reagent,,Alchemical item used in recipes or rituals,Yes,Useful for alchemy and crafting
+Tag,Bulk,,Large quantity good suited to business orders,Yes,Useful for Trade Goods and big contracts
+Tag,Luxury,,High-end item desired by wealthy buyers,Yes,Can overlap with Elegant but may be broader
+Tag,Regional,,Item linked to a specific Adventure region,Later,Useful once regions are defined
+Tag,Perishable,,Item that may expire or lose value,Later,Only add if you want time pressure
+Tag,Forged,,Fake or counterfeit item,Later,Useful if Rogue/counterfeit mechanics return
+Tag,Refined,,Processed or improved material,Maybe,Useful for Crafted Goods and Trade Goods
+Tag,Volatile,,Dangerous explosive or unstable item,Maybe,Useful for risky consumables and alchemy
+Rarity,Common,,Standard card,Yes,Most basic goods
+Rarity,Uncommon,,Slightly stronger or more specific card,Yes,Useful middle tier
+Rarity,Rare,,Higher-value or harder-to-get card,Yes,Premium basic resource or special reward
+Rarity,Special,,Special deck or unusual card,Yes,Artifacts Black Market and unusual effects
+Status,Idea,,Rough idea only,Yes,Not ready for playtest
+Status,Drafted,,Written into card database,Yes,Ready to review
+Status,Designed,,Has visual or card design,Yes,Art/layout exists
+Status,Tested,,Used in playtest,Yes,Has been tested
+Status,Final,,Locked for current version,Yes,Do not change without revision
+Source,Adventure,,Gained during Adventure phase,Yes,Standard exploration reward
+Source,Town,,Gained during Town phase,Yes,From town actions
+Source,Market,,Bought or traded through market effects,Yes,General shop economy
+Source,Quest,,Reward from completing quests,Yes,Adventure objective reward
+Source,Monster,,Reward from defeating monsters,Yes,Monster Part and rare rewards
+Source,Crafting,,Created through crafting actions,Yes,Mostly Crafted Goods
+Source,Black Market,,Gained through shady actions,Yes,Stolen or Contraband rewards
+Source,Starting Setup,,Given at the start of the game,Yes,Starting resources or cards
+Source,Selling Reward,,Gained after completing a sale,Maybe,Only if sales can reward items
+Source,Event,,Gained from Town Events or Adventure Events,Maybe,Useful for special effects
+Selling Type,Visitor,VIS,A customer visiting the shop,Yes,Customer-style selling card
+Selling Type,Craft Request,CRQ,A request for crafted goods,Yes,Useful for crafting strategy
+Selling Type,Business Order,BUS,A large bulk order or contract,Yes,Useful for Trade Goods and Bulk items
+Selling Type,Hero Order,HRO,A request from an adventurer or hero,Yes,Useful for Armaments and Consumables
+Selling Type,Black Market Deal,BMD,A shady or illegal selling opportunity,Yes,Uses Stolen Contraband or Black Market goods
+Selling Type,Alchemy Order,ALQ,A request for potions reagents or magical mixtures,Maybe,Use if alchemy becomes distinct
+Selling Type,Luxury Commission,LUX,A high-value order from a wealthy buyer,Yes,Useful for Trinkets Elegant and Luxury tags
+Visibility,Public,PUB,Available to all players,Yes,Used in shared markets
+Visibility,Private,PRI,Held by one player,Yes,Used for hand/private orders
+Visibility,Shared,SHR,Can be contributed to or competed over,Maybe,Useful for large public contracts

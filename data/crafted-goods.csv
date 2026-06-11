@@ -1,0 +1,49 @@
+Card ID,Item Deck,Main type,Tags,Card Name,Value,Reputation,Rarity,Effect,Art Notes,Asset File,Status,Balance Notes,Count of Card
+CRF-ARM-001,Crafted Goods,Armament,"Forged, Blade, Magical",Flaming Blade,9,1,Uncommon,+1 to Rolls.,A flaming longsword,,Idea,,1
+CRF-ARM-002,Crafted Goods,Armament,"Forged, Armor, Elegant",Elven Half Plate,9,1,Uncommon,Ignore 1 Retaliation.,A silvered half plate chest piece,,Idea,,1
+CRF-ARM-003,Crafted Goods,Armament,"Forged, Blunt, Mystic",Enchanted Warmaul,9,1,Uncommon,+1 to Rolls.,A huge enchanted rock maul.,,Idea,,1
+CRF-ARM-004,Crafted Goods,Armament,"Forged, Bow, Magical",Crystalforged Bow,9,1,Uncommon,+1 Range,A bow made of sparkling glass.,,Idea,,1
+CRF-ARM-005,Crafted Goods,Armament,"Forged, Firearm, Exotic",Thunderstone Flintlocke,13,2,Rare,"+1 Range, +1 to Rolls.",A flintlocke with a stone surging with lightning.,,Idea,,1
+CRF-ARM-006,Crafted Goods,Armament,"Forged, Luxury, Armor",Velted Strewn Robes,13,2,Rare,Gain 1 Reroll.,Purple velvet runes adorned with runes.,,Idea,,1
+CRF-ARM-007,Crafted Goods,Armament,"Forged, Blade, Cursed",Shadowheart Dagger,13,2,Rare,"Gain 1 Movement, +1 to Rolls","A blade glowing dagger, with dark jewels.",,Idea,,1
+CRF-ARM-008,Crafted Goods,Armament,"Forged, Blunt, Sacred",Diviner's Mace,13,2,Rare,Gain 1 Reroll.,An ornate priest's mace,,Idea,,1
+CRF-ARM-009,Crafted Goods,Armament,"Forged, Monster Part, Armor",Great Turtle's Shell,20,3,Special,"Gain 2 Movement, Ignore 2 Retaliations",A large emboldened turtle shell shield,,Idea,,1
+CRF-ARM-010,Crafted Goods,Armament,"Forged, Refined, Blade",Master Duelist's Rapier,20,3,Special,"Gain 2 Rerolls, +2 to Rolls.",A beautifully crafted rapier with a jewel encrusted hilt guard.,,Idea,,1
+CRF-ARM-011,Crafted Goods,Armament,"Forged, Bow, Elegant",Ranger Captain's Quill,20,3,Special,"+2 Range, +1 to Rolls.","A finely crafted bow, with golden handle, and silver strand string.",,Idea,,1
+CRF-ARM-012,Crafted Goods,Armament,"Forged, Blunt, Volatile",Living Flame Whip,20,3,Special,"+1 Range, +2 to Rolls.",A whip that crackles with living fire.,,Idea,,1
+CRF-CON-001,Crafted Goods,Consumable,"Forged, Volatile, Potion",Bubbling Brew,9,1,Uncommon,Ignore 1 Retaliation.,A bubbling red brew in a vial.,,Idea,,1
+CRF-CON-002,Crafted Goods,Consumable,"Forged, Refined, Herb",Glittering Redcap Dust,9,1,Uncommon,Gain 1 Reroll.,Red dust with glittering fragments.,,Idea,,1
+CRF-CON-003,Crafted Goods,Consumable,"Forged, Luxury, Reagent",Sharpened Walrus Fang,9,1,Uncommon,No Effect.,A sharpened Walrus fang.,,Idea,,1
+CRF-CON-004,Crafted Goods,Consumable,"Forged, Exotic, Monster Part",Crushed Gnoll Snouts,9,1,Uncommon,No Effect.,A jar of oozing crushed gnoll snouts.,,Idea,,1
+CRF-CON-005,Crafted Goods,Consumable,"Forged, Magical, Potion",Glowing Sweetlyre Brew,13,2,Rare,Gain 4 Movement.,A glowing blue ption in a bronzed vial.,,Idea,,1
+CRF-CON-006,Crafted Goods,Consumable,"Forged, Mystic, Potion",Glasswire Draught,13,2,Rare,+3 to a Roll.,A silver liquid in a golden vial.,,Idea,,1
+CRF-CON-007,Crafted Goods,Consumable,"Forged, Elegant, Potion",Sweet Honeyed Elixir,13,2,Rare,"Gain 2 Movement, Gain +2 Range.",A thickened yellow elixir in a blue capped vial.,,Idea,,1
+CRF-CON-008,Crafted Goods,Consumable,"Forged, Cursed, Reagent",Crushed Demon Wings,13,2,Rare,No Effect.,A thick black dust with spines within it.,,Idea,,1
+CRF-CON-009,Crafted Goods,Consumable,"Forged, Magical, Monster Part",Extracted Wyvern Venom,20,3,Special,No Effect.,A large locked vial of green and orange hissing liquid,,Idea,,1
+CRF-CON-010,Crafted Goods,Consumable,"Forged, Volatile, Potion",Explosive Dynabrew,20,3,Special,+4 to a Roll.,"A red and orange brew in an uncorked flask, smoking.",,Idea,,1
+CRF-CON-011,Crafted Goods,Consumable,"Forged, Sacred, Potion",Caputred Gleam,20,3,Special,Gain 1 Adventurer Action.,A bright White potion in a flask with wings.,,Idea,,1
+CRF-CON-012,Crafted Goods,Consumable,"Forged, Exotic, Cursed, Monster Part",Caged Skull of Death,20,3,Special,Complete 1 Interaction for Free.,"A dark skull, in an iron cage, braced with iron.",,Idea,,1
+CRF-TRI-001,Crafted Goods,Trinket,"Forged, Magical, Jewelry",Earrings of Deftness,9,1,Uncommon,Gain 1 Movement.,Jewelled Earrings with a wing shape.,,Idea,,1
+CRF-TRI-002,Crafted Goods,Trinket,"Forged, Elegant, Jewelry",Pedant of Forgotten Love,9,1,Uncommon,Ignore 1 Retaliation.,A dark necklace with an oynx heart.,,Idea,,1
+CRF-TRI-003,Crafted Goods,Trinket,"Forged, Exotic, Curio",Misguided Soldier's Relic,9,1,Uncommon,Gain 1 Reroll.,A bronzed compass with a blue aura.,,Idea,,1
+CRF-TRI-004,Crafted Goods,Trinket,"Forged, Magical, Monster Part",Gilded Manticore Horn,9,1,Uncommon,Refresh 1 Skill.,A manticore horn with gold plating.,,Idea,,1
+CRF-TRI-005,Crafted Goods,Trinket,"Forged, Cursed, Curio",Dark Seer's Orb,13,2,Rare,Refresh 2 Skills.,A dark misty orb with grey flashing.,,Idea,,1
+CRF-TRI-006,Crafted Goods,Trinket,"Forged, Jewelry, Monster Part",Harpy Bone Hairpin,13,2,Rare,+1 to Rolls.,"A whiskbone hairpin, harpy bone.",,Idea,,1
+CRF-TRI-007,Crafted Goods,Trinket,"Forged, Exotic, Magical, Jewelry",Intricate Orcish War Ring,13,2,Rare,Ignore 1 Retaliation.,"An orcish ring, with scratches across it.",,Idea,,1
+CRF-TRI-008,Crafted Goods,Trinket,"Forged, Elegant, Curio",Eternal Liquid Chalice,13,2,Rare,Gain 2 Movement.,An aqua chalice with a godlen accent.,,Idea,,1
+CRF-TRI-009,Crafted Goods,Trinket,"Forged, Sacred, Curio",Scepter of the Last Dwarf King,20,3,Special,"Gain 2 Movement, +2 to Rolls.","A dwarvish Scepter, made of bronze with topazes.",,Idea,,1
+CRF-TRI-010,Crafted Goods,Trinket,"Forged, Cursed, Jewelry",Tiara of Absolute Despair,20,3,Special,"Refresh 2 Skills, Gain 2 Rerolls.",A tiara made of dark metal with sapphires.,,Idea,,1
+CRF-TRI-011,Crafted Goods,Trinket,"Forged, Magical, Mystic, Curio",Fate-weavers Decision Maker,20,3,Special,Complete 1 Interaction for Free.,"A dark purple crystal cube, glittering with light.",,Idea,,1
+CRF-TRI-012,Crafted Goods,Trinket,"Forged, Mystic, Monster Part",Dragonhorn Drinking Horn,20,3,Special,"Gain 3 Rerolls, +1 to Rolls.",A huge dragon horn fashioned into a drinking horn.,,Idea,,1
+CRF-TRA-001,Crafted Goods,Trade Good,"Forged, Exotic, Food",Mushroom Bread,9,1,Uncommon,No Effect.,Bread made from mushrooms.,,Idea,,1
+CRF-TRA-002,Crafted Goods,Trade Good,"Forged, Elegant, Material",Mistveil Wool,9,1,Uncommon,No Effect.,Spools of wool from mountain sheep.,,Idea,,1
+CRF-TRA-003,Crafted Goods,Trade Good,"Forged, Magical, Material",Invisible Ink,9,1,Uncommon,No Effect.,A sparkling ink pot with a quill.,,Idea,,1
+CRF-TRA-004,Crafted Goods,Trade Good,"Forged, Volatile, Food",Curdled Manticore Cheese,9,1,Uncommon,No Effect.,A crusty green and yellow cheese from manitcore.,,Idea,,1
+CRF-TRA-005,Crafted Goods,Trade Good,"Forged, Exotic, Material",Darkwood Fur Pelts,13,2,Rare,No Effect.,A black fur pelt with mossy tones.,,Idea,,1
+CRF-TRA-006,Crafted Goods,Trade Good,"Forged, Food, Elegant",Elven Wine,13,2,Rare,No Effect.,Various elegent bottles of wines.,,Idea,,1
+CRF-TRA-007,Crafted Goods,Trade Good,"Forged, Magical, Material",Enchanted Willow Wood,13,2,Rare,No Effect.,Enchanted Willow Wood Pile,,Idea,,1
+CRF-TRA-008,Crafted Goods,Trade Good,"Forged, Sacred, Food",Ironstout Larger,13,2,Rare,No Effect.,Large barrell of dwarfen brew.,,Idea,,1
+CRF-TRA-009,Crafted Goods,Trade Good,"Forged, Monster Part, Magical, Food",Rump of Delicious Dragon,20,3,Special,No Effect.,"A huge dragon steak, cooked rare.",,Idea,,1
+CRF-TRA-010,Crafted Goods,Trade Good,"Forged, Volatile, Exotic, Material",Ashdust Volcanic Powder,20,3,Special,No Effect.,A large pile of sizzling gunpowder.,,Idea,,1
+CRF-TRA-011,Crafted Goods,Trade Good,"Forged, Sacred, Cursed, Material",Voidlight Shifting Plates,20,3,Special,No Effect.,"Large plates of steel, half void, half light.",,Idea,,1
+CRF-TRA-012,Crafted Goods,Trade Good,"Forged, Elegant, Magical, Food",Exquisite Cactus Honey,20,3,Special,No Effect.,Jars of Honey made from Cacti.,,Idea,,1
