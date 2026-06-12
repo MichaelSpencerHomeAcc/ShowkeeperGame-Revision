@@ -1,0 +1,9 @@
+Card ID,Item Deck,Main type,Tags,Card Name,Value,Reputation,Rarity,Effect,Art Notes,Asset File,Status,Balance Notes,Count of Card
+ART-ARM-001,Artifact,Armament,"Forged, Mystic, Magical, Blade","Shala'thir, Final Light of Westhope",30,5,Special,"+6 to Rolls, 3 Rerolls, Gain 1 Adventurer Action.","A Shining Artifact two-handed sword, bright lights and a beautiful haft.",,Idea,,1
+ART-ARM-002,Artifact,Armament,"Forged, Luxury, Elegant, Armor","Iceblaze, Wraps of the Fallen Dark Elf",30,5,Special,"+4 to Rolls, Gain 3 Movement, Refresh 1 Skill Each Turn.","The wraps are made of Ice and Flame, wizard robes of intense magic",,Idea,,1
+ART-CON-001,Artifact,Consumable,"Forged, Magical, Sacred, Refined",Goldenblaze Oil,30,5,Special,Gain 1 Adventurer Turn after all others finish.,A golden liquid in a regal looking vial.,,Idea,,1
+ART-CON-002,Artifact,Consumable,"Forged, Refined, Monster Part, Reagent",Dragonblazed Eye of the Grand Beholder,30,5,Special,Skills are not expended when used. +2 to Rolls.,A Beholder eye thats been fired in Dragonflame to make it impeccable.,,Idea,,1
+ART-TRI-001,Artifact,Trinket,"Forged, Luxury, Magical, Jewelry","Xelnis, Ring of the Soul Warden",30,5,Special,"When you complete an Adventure Card, Draw 2 Resources.","A dark silver ring with a perfect line of emeralds, hissing with soul energy.",,Idea,,1
+ART-TRI-002,Artifact,Trinket,"Forged, Sacred, Mystic, Curio","Orionas, Wind's Whisper",30,5,Special,You may always reroll up to 2 dice.,"A silver and bronzed flute, with wind magic humming from it.",,Idea,,1
+ART-TRA-001,Artifact,Trade Good,"Forged, Volatile, Magical, Material",Adamightium,38,5,Special,No Effect.,"A green and purple forged bar, looks impervious.",,Idea,,1
+ART-TRA-002,Artifact,Trade Good,"Forged, Cursed, Monster Part, Food",Steak of Hydalius,38,5,Special,No Effect.,"A large flank of Hydra steak, it's huge, look delicious.",,Idea,,1
