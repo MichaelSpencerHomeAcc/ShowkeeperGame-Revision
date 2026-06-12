@@ -421,6 +421,37 @@ Card backs should not reveal whether a card is a Monster, Quest, Trap, or Discov
 
 ---
 
+## Decision 013 – Increase Phase Actions for the First Prototype
+
+**Date:** 10/06/26  
+**Version:** 0.1.1  
+**Status:** Confirmed  
+
+### Decision
+
+The first prototype will use a larger action economy than the original 0.1 assumption.
+
+Each player currently receives:
+
+- 5 Adventure turns per round
+- 5 Town actions per round
+
+The game still lasts 3 rounds.
+
+### Reason
+
+Because the game only lasts 3 rounds, each round needs to feel substantial. Increasing the number of Adventure and Town actions gives players more room to explore, gather resources, train, craft, upgrade, interact with the board, and build towards a selling strategy.
+
+### Impact
+
+The Core Design Document should be updated to replace the earlier assumption of 3 Adventure turns and 4 Town actions.
+
+The Rules Skeleton is now the current source for the first prototype action economy.
+
+This action count may need playtesting to check pacing, downtime, and total game length.
+
+---
+
 # Future Decision Template
 
 Use this template when adding new design decisions.
