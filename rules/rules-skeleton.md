@@ -50,7 +50,7 @@ Each player takes:
 * 1 Adventurer Card (or Board)
 * 1 Shop Board
 * 1 Player Marker
-* Choose 4 starting Selling Cards
+* Choose starting Selling Cards
 
 For Testing:
 

@@ -519,7 +519,8 @@ Each player starts with:
 - 0 training
 - 1d6 adventurer dice
 - 3 Resource Cards, kept from 5 dealt
-- 2 private Selling Cards, kept from 3 dealt
+- 3 chosen private Orders
+- 3 Order slots
 - 0 shop upgrades
 
 The shared setup includes:
@@ -626,57 +627,6 @@ The first prototype needs a simple adventurer system that supports Adventure Car
 Training should make adventurers stronger quickly enough to matter in a 3-round game.
 
 Keeping the flat +1 separate from training creates a clean distinction between adventurer experience and adventurer gear.
-
-### Impact
-
-Adventure Cards should be balanced around players starting at 1d6 + 1 and potentially reaching 2d6 + 1 or 3d6 + 1 through training.
-
-Town rules should include a Training action that increases training progress.
-
-Future adventurer design can replace generic boons with unique adventurer skills.
-
----
-
-## Decision 017 – Define Prototype Adventurer Dice and Training
-
-**Date:** 10/06/26
-**Version:** 0.1.2
-**Status:** Confirmed
-
-### Decision
-
-For the first playable prototype, all adventurers use the same basic dice progression.
-
-Each adventurer starts with:
-
-* 1d6 adventurer dice
-* +1 to Adventure rolls
-* 0 training
-* No unique skills
-
-Training increases the number of dice rolled:
-
-| Training Level | Adventure Roll |
-| -------------: | -------------- |
-|   0–1 Training | 1d6 + 1        |
-|   2–3 Training | 2d6 + 1        |
-|    4+ Training | 3d6 + 1        |
-
-The flat +1 roll bonus does not increase through training.
-
-In future versions, adventurer-specific boons will become unique skills that differ between adventurers. Gear may be used to improve the flat roll bonus.
-
-### Reason
-
-The first prototype needs a simple adventurer system that supports Adventure Card thresholds without adding too much character complexity too early.
-
-Training should make adventurers stronger quickly enough to matter in a 3-round game.
-
-Keeping the flat +1 separate from training creates a clean distinction between adventurer experience and adventurer gear:
-
-* Training improves dice.
-* Gear improves the flat bonus.
-* Skills provide unique adventurer effects.
 
 ### Impact
 

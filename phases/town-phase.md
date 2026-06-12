@@ -69,7 +69,7 @@ The first playable prototype uses 10 Town locations:
 | Guild Hall       | Use 1 Professional effect.                              |
 | Market Square    | Draw 2 Resource Cards.                                  |
 | Auction House    | Roll and sell 1 Resource for quick Coins.               |
-| Tavern           | Equip 1 item or gear card to your Adventurer.           |
+| Tavern           | Equip 1 eligible card to your Adventurer.               |
 | Bulletin Board   | Draw 1 Objective Card.                                  |
 | Promoter’s Booth | Draw 1 Promotion Card.                                  |
 | Stables          | Gain +2 movement during your next Adventure Phase.      |

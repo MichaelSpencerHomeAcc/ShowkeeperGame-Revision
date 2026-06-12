@@ -87,10 +87,6 @@ This card represents the current shared customer available to all players.
 
 Only Visitor-type Selling Cards should be used for the public Visitor slot.
 
-The public Visitor is available during the Selling Phase. Players may sell to or complete the Visitor according to the Selling Phase rules.
-
-If the public Visitor is completed, discard it and reveal a new Visitor Selling Card.
-
 ---
 
 ## 6. Player Setup
@@ -209,7 +205,8 @@ Each player starts with:
 | Training              |                   0 |
 | Adventurer Dice       |                 1d6 |
 | Resource Cards        | 3 kept from 5 dealt |
-| Private Selling Cards | 2 kept from 3 dealt |
+| Private Orders        | 3 private Orders    |
+| Order Slots           |                   3 |
 | Shop Upgrades         |                   0 |
 
 The shared board starts with:

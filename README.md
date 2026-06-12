@@ -8,7 +8,7 @@ The purpose of this repo is to keep the game design organised, versioned, and ea
 
 ## Current Design Version
 
-**Version:** 0.1
+**Version:** 0.1.2
 **Status:** Working Draft
 **Core Loop:** Adventure → Town → Selling
 **Current Game Length:** 3 rounds
