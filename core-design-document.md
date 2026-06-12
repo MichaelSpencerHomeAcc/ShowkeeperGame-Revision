@@ -104,15 +104,15 @@ Players should not be waiting for one player to take a long full turn. Instead, 
 
 Each round currently gives every player:
 
-* **3 Adventure turns**
-* **4 Town actions**
-* **Up to 2 completed Selling Cards**
+* **5 Adventure turns**
+* **5 Town actions**
+* **Up to 3 completed Selling Cards**
 
 Across the full game, before upgrades or special effects, this gives each player:
 
-* **9 Adventure turns**
-* **12 Town actions**
-* **Up to 6 standard Selling Card completions**
+* **15 Adventure turns**
+* **15 Town actions**
+* **Up to 9 standard Selling Card completions**
 
 Certain skills, upgrades, events, or card effects may increase these limits.
 

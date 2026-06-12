@@ -95,19 +95,17 @@ If the public Visitor is completed, discard it and reveal a new Visitor Selling 
 
 ## 6. Player Setup
 
-Each player takes:
+Each player starts with:
 
-* 1 player marker or adventurer meeple
-* 1 player area or shop board
-* 20 coins
-* 0 reputation
-* 0 training
-* 1d6 as their starting adventurer dice
-* Space for resources
-* Space for completed Selling Cards
-* Space for shop upgrades
-
-Each player starts with no shop upgrades.
+* 20 Coins
+* 0 Reputation
+* 0 Training
+* 1d6 adventurer dice
+* +1 to Adventure rolls
+* 3 chosen private Orders
+* 3 Order slots
+* No shop upgrades
+* No equipped gear unless a future setup rule says otherwise
 
 ---
 
@@ -125,19 +123,48 @@ This gives each player a small starting inventory while allowing them to make an
 
 ---
 
-## 8. Starting Selling Card Draft
+## 8. Starting Private Orders
 
-Deal each player **3 Selling Cards**.
+Each player starts the game with 3 Order slots.
 
-Each player chooses **2 Selling Cards** to keep and discards the remaining 1.
+During setup, each player chooses 3 starting private Orders from the available private Order piles.
 
-Kept Selling Cards are private Selling Cards.
+Players may choose which piles to draw from.
 
-Discarded Selling Cards are placed in the Selling Card discard pile.
+Example choices:
 
-This gives each player early goals to build towards during Adventure and Town.
+3 Visitor Orders
+2 Craft Requests and 1 Hero Order
+1 Business Order, 1 Luxury Commission, and 1 Black Market Deal
 
-Visitor cards should not normally be dealt as private Selling Cards unless a future rule specifically allows it.
+Each chosen Order is placed face up in that player’s shop.
+
+These 3 Orders fill the player’s starting Order slots.
+
+Do not use the earlier rule where players were dealt 3 Selling Cards and kept 2.
+
+### Public Visitor Setup
+
+Replace any old public Selling market wording with this:
+
+Public Visitor Setup
+
+Reveal 1 Public Visitor card and place it in the shared Public Visitor slot.
+
+The Public Visitor is available to all players during the Selling Phase.
+
+The Public Visitor is not completed like a private Order.
+
+Instead, the Public Visitor buys eligible leftover goods after players have completed any private Orders they want to complete.
+
+For the first prototype, use this Public Visitor:
+
+The King
+Buys: Trinkets or Armaments
+Rate: Face value
+Limit: 10 Coins per individual card
+
+The Public Visitor remains in play until a rule or effect changes it.
 
 ---
 
