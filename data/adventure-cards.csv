@@ -1,0 +1,21 @@
+Card ID,Item Deck,Adventure Type,Card Name,HP,Armor,First Target,Reward 1,Second Target,Reward 2,Third Target,Reward 3,Failure,Retaliation,Asset File,Status,Balance Notes,Count of Card
+ADV-QST-001,Adventure,Quest,Rescue the Lost Apprentice,N/A,N/A,3,Draw 2,7,Draw 4,11,"Draw 4,  3 Coins",No Rewards,N/A,,Idea,,1
+ADV-QST-002,Adventure,Quest,Calm the Panicked Mule,N/A,N/A,2,Draw 1,6,"Draw 2, 1 Coin",12,"Draw 4, 2 Coins, 2 Movement",No Rewards,N/A,,Idea,,1
+ADV-QST-003,Adventure,Quest,Repair the Shrine Lanterns,N/A,N/A,4,Draw 2,8,"Draw 3, 1 Coin",13,"Draw 5, 2 Coins",No Rewards,N/A,,Idea,,1
+ADV-QST-004,Adventure,Quest,Collect Herbs for the Healer,N/A,N/A,3,"Draw 1, 1 Coin",7,"Draw 2, 1 Coin",11,"Draw 4, 2 Coins, 1 Movement",No Rewards,N/A,,Idea,,1
+ADV-QST-005,Adventure,Quest,Find the Lost Delivery Crate,N/A,N/A,5,"Draw 2, 1 Movement",9,"Draw 3, 2 Movement",12,"Draw 4, 3 Movement",No Rewards,N/A,,Idea,,1
+ADV-MON-001,Adventure,Monster,Thornhide Boar,8,0,N/A,"Draw 5, Refresh 1 Skill",N/A,"Draw 3, 1 Coin",N/A,"Draw 1, 1 Coin",No Rewards,Discard 1,,Idea,,1
+ADV-MON-002,Adventure,Monster,Manticore,11,1,N/A,"Draw 6, 4 Coins",N/A,"Draw 4, 2 Coins",N/A,Draw 3,No Rewards,Lose 3 Coins,,Idea,,1
+ADV-MON-003,Adventure,Monster,Harpy,7,2,N/A,"Draw 3, 2 Movement",N/A,"Draw 2, 1 Movement",N/A,Draw 2,No Rewards,Discard 1,,Idea,,1
+ADV-MON-004,Adventure,Monster,Goblin Hunter,9,1,N/A,"Draw 4, 3 Coins",N/A,"Draw 3, 1 Coin",N/A,"Draw 2, 1 Movement",No Rewards,Lose 1 Movement next turn,,Idea,,1
+ADV-MON-005,Adventure,Monster,Graveyard Wailer,7,3,N/A,"Draw 5, 2 Coins",N/A,"Draw 4, 1 Coin",N/A,"Draw 2, 1 Coin",No Rewards,Discard 1,,Idea,,1
+ADV-TRP-001,Adventure,Trap,Rune-Locked Door,N/A,N/A,5,"Draw 1, 1 Coin",9,"Draw 2, 1 Coin",12,"Draw 2, 2 Coins",Lose 3 Movement next turn,N/A,,Idea,,1
+ADV-TRP-002,Adventure,Trap,Ancient Dart Hall,N/A,N/A,4,Draw 1,8,Draw 2,11,Draw 3,"Exhaust 1 Skill, Discard 1",N/A,,Idea,,1
+ADV-TRP-003,Adventure,Trap,Pressure Plate Puzzle,N/A,N/A,4,Draw 1,9,"Draw 2, 1 Coin",13,"Draw 3, 1 Coin",Discard 2,N/A,,Idea,,1
+ADV-TRP-004,Adventure,Trap,Swinging Blade Corridor,N/A,N/A,5,"Draw 1, 1 Coin",10,"Draw 2, 2 Coins",14,"Draw 3, 2 Coins","Lose 3 Movement next turn, Discard 1",N/A,,Idea,,1
+ADV-TRP-005,Adventure,Trap,Fire Jet Statue,N/A,N/A,4,Draw 1,7,Draw 2,12,"Draw 2, 2 Coins",Lose 5 Coins,N/A,,Idea,,1
+ADV-DSC-001,Adventure,Discovery,Hidden Supply Cache,N/A,N/A,3,"Draw 2, 1 Coin",8,"Draw 4, 1 Coin",14,"Draw 6, 3 Coins",Draw 1,N/A,,Idea,,1
+ADV-DSC-002,Adventure,Discovery,Wrecked Caravan,N/A,N/A,4,Draw 3,9,"Draw 5, 1 Coin",13,"Draw 7, 2 Coins","Draw 1, 1 Coin",N/A,,Idea,,1
+ADV-DSC-003,Adventure,Discovery,Cracked Vault Door,N/A,N/A,5,"Draw 3, 1 Coin",11,"Draw 5, 2 Coins",15,"Draw 7, 5 Coins",Draw 2,N/A,,Idea,,1
+ADV-DSC-004,Adventure,Discovery,Abandoned Merchant Camp,N/A,N/A,3,"Draw 2, 1 Coin",7,"Draw 3, 1 Coin",13,"Draw 5, 3 Coins",Draw 1,N/A,,Idea,,1
+ADV-DSC-005,Adventure,Discovery,Forgotten Shrine,N/A,N/A,4,Draw 3,9,Draw 5,14,"Draw 6, 2 Coins","Draw 1, 1 Coin",N/A,,Idea,,1

@@ -333,6 +333,125 @@ Future design should consider whether Round 3 has special rules, stronger Sellin
 
 ---
 
+## Decision 011 – Use Four Main Item Types with Tags
+
+**Date:** 10/06/26  
+**Version:** 0.1  
+**Status:** Confirmed  
+
+### Decision
+
+The game will keep four main item types:
+
+1. Armament
+2. Consumable
+3. Trinket
+4. Trade Good
+
+Each item may also have one or more tags that define special qualities, uses, or restrictions.
+
+Example tags include:
+
+- Crafted
+- Rare
+- Magical
+- Monster Part
+- Artifact
+- Black Market
+- Luxury
+- Contraband
+
+### Reason
+
+The four main item types keep the economy easy to understand, while tags add enough flexibility to support special orders, crafting, black-market deals, rare goods, and different shopkeeper strategies.
+
+This avoids needing a large list of separate resource types while still allowing cards to feel flavourful and mechanically distinct.
+
+### Impact
+
+Selling Cards, quests, crafting, Black Market actions, and shop upgrades can refer to either item types, tags, or combinations of both.
+
+Examples:
+
+- Any 2 Consumables
+- 1 Armament and 1 Trinket
+- Any Stolen item
+- 1 Crafted Armament
+- 1 Rare Trinket
+- Any 2 Monster Part items
+
+---
+
+## Decision 012 – Use One Adventure Deck and Mystery Tokens
+
+**Date:** 10/06/26  
+**Version:** 0.1.1  
+**Status:** Confirmed  
+
+### Decision
+
+The Adventure phase will use one shared Adventure Deck.
+
+All Adventure cards have the same generic card back. The card type is not visible before the card is revealed.
+
+Adventure points on the board are represented by Mystery Tokens. When a player reaches and interacts with a Mystery Token, they remove that token and reveal the top card of the Adventure Deck.
+
+The revealed card may be one of four Adventure Card types:
+
+- Monster
+- Quest
+- Trap
+- Discovery
+
+### Reason
+
+This keeps Adventure unpredictable and prevents players from avoiding specific card types before they are revealed.
+
+Players know there is something worth exploring on the board, but they do not know exactly what they will encounter until they commit to the interaction.
+
+This supports the feeling of exploration, risk, and discovery.
+
+### Impact
+
+Adventure cards should be designed as one mixed deck rather than separate decks by type.
+
+Adventure tokens on the board should be generic Mystery Tokens, not type-specific tokens.
+
+Card backs should not reveal whether a card is a Monster, Quest, Trap, or Discovery.
+
+---
+
+## Decision 013 – Increase Phase Actions for the First Prototype
+
+**Date:** 10/06/26  
+**Version:** 0.1.1  
+**Status:** Confirmed  
+
+### Decision
+
+The first prototype will use a larger action economy than the original 0.1 assumption.
+
+Each player currently receives:
+
+- 5 Adventure turns per round
+- 5 Town actions per round
+
+The game still lasts 3 rounds.
+
+### Reason
+
+Because the game only lasts 3 rounds, each round needs to feel substantial. Increasing the number of Adventure and Town actions gives players more room to explore, gather resources, train, craft, upgrade, interact with the board, and build towards a selling strategy.
+
+### Impact
+
+The Core Design Document should be updated to replace the earlier assumption of 3 Adventure turns and 4 Town actions.
+
+The Rules Skeleton is now the current source for the first prototype action economy.
+
+This action count may need playtesting to check pacing, downtime, and total game length.
+
+---
+
 # Future Decision Template
 
 Use this template when adding new design decisions.
@@ -356,3 +475,4 @@ Explain why this decision was made.
 
 Explain what this changes or affects in the design.
 ```
+
