@@ -382,6 +382,45 @@ Examples:
 
 ---
 
+## Decision 012 – Use One Adventure Deck and Mystery Tokens
+
+**Date:** 10/06/26  
+**Version:** 0.1.1  
+**Status:** Confirmed  
+
+### Decision
+
+The Adventure phase will use one shared Adventure Deck.
+
+All Adventure cards have the same generic card back. The card type is not visible before the card is revealed.
+
+Adventure points on the board are represented by Mystery Tokens. When a player reaches and interacts with a Mystery Token, they remove that token and reveal the top card of the Adventure Deck.
+
+The revealed card may be one of four Adventure Card types:
+
+- Monster
+- Quest
+- Trap
+- Discovery
+
+### Reason
+
+This keeps Adventure unpredictable and prevents players from avoiding specific card types before they are revealed.
+
+Players know there is something worth exploring on the board, but they do not know exactly what they will encounter until they commit to the interaction.
+
+This supports the feeling of exploration, risk, and discovery.
+
+### Impact
+
+Adventure cards should be designed as one mixed deck rather than separate decks by type.
+
+Adventure tokens on the board should be generic Mystery Tokens, not type-specific tokens.
+
+Card backs should not reveal whether a card is a Monster, Quest, Trap, or Discovery.
+
+---
+
 # Future Decision Template
 
 Use this template when adding new design decisions.
