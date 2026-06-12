@@ -421,7 +421,57 @@ Card backs should not reveal whether a card is a Monster, Quest, Trap, or Discov
 
 ---
 
-## Decision 013 – Increase Phase Actions for the First Prototype
+## Decision 013 – Define Four Distinct Adventure Card Behaviours
+
+**Date:** 10/06/26  
+**Version:** 0.1.1  
+**Status:** Confirmed  
+
+### Decision
+
+Adventure Cards use four main types:
+
+- Monster
+- Quest
+- Trap
+- Discovery
+
+Each type has a distinct mechanical identity.
+
+Monsters are about speed. They have HP and armour, and players try to defeat them within 1, 2, or 3 attempts. Faster defeats give better rewards. If the Monster survives a combat roll, it retaliates, usually causing the player to lose cards, resources, or coins.
+
+Quests use a straight roll for success level. The player gains a reward based on the highest threshold reached. If the player fails to reach the first threshold, they gain no reward. Quests usually do not retaliate.
+
+Traps use a straight roll to avoid, disarm, or overcome danger. If the player fails, the Trap effect triggers. Trap effects usually reduce tempo, such as losing dice bonuses, movement, speed, or weakening a future roll.
+
+Discoveries use a straight roll to determine reward quality. Discoveries always give a reward, even if the player fails to reach the first threshold. Higher results give better rewards.
+
+### Reason
+
+This keeps the Adventure system easy to understand while making each card type feel different.
+
+Each type creates a different kind of tension:
+
+- Monster = defeat it quickly or suffer retaliation.
+- Quest = succeed for rewards, fail for nothing.
+- Trap = avoid danger or lose tempo.
+- Discovery = always gain something, but better rolls find better rewards.
+
+### Impact
+
+Adventure Cards should be designed around their type identity.
+
+Monster cards need HP, armour, rewards based on defeat speed, and retaliation effects.
+
+Quest cards need three success thresholds and no failure reward.
+
+Trap cards need three success thresholds and a trap effect for failure.
+
+Discovery cards need three success thresholds and a fallback reward for failure.
+
+---
+
+## Decision 014 – Increase Phase Actions for the First Prototype
 
 **Date:** 10/06/26  
 **Version:** 0.1.1  
@@ -449,6 +499,98 @@ The Core Design Document should be updated to replace the earlier assumption of 
 The Rules Skeleton is now the current source for the first prototype action economy.
 
 This action count may need playtesting to check pacing, downtime, and total game length.
+
+---
+
+## Decision 015 – Confirm First Prototype Setup
+
+**Date:** 10/06/26  
+**Version:** 0.1.2  
+**Status:** Confirmed  
+
+### Decision
+
+The first playable prototype setup is confirmed.
+
+Each player starts with:
+
+- 20 coins
+- 0 reputation
+- 0 training
+- 1d6 adventurer dice
+- 3 Resource Cards, kept from 5 dealt
+- 2 private Selling Cards, kept from 3 dealt
+- 0 shop upgrades
+
+The shared setup includes:
+
+- 1 public Visitor card
+- 2 Mystery Tokens per player on the Adventure board
+- Round tracker set to Round 1
+- Randomly chosen first player
+
+### Reason
+
+This setup gives players enough starting money to interact with Town actions and recover from early setbacks, while the resource and Selling Card drafts provide early direction.
+
+Using 1 public Visitor keeps the shared customer focus from the original game without overwhelming the table with too many public selling opportunities.
+
+### Impact
+
+The setup rules are now stable enough for the first playable prototype.
+
+Future testing should check whether:
+
+- 20 starting coins is too generous or too restrictive.
+- 2 Mystery Tokens per player is enough for 5 Adventure turns.
+- Starting with 3 Resource Cards and 2 private Selling Cards gives players enough early direction.
+
+---
+
+## Decision 016 – Use a 10x8 Forest Adventure Board with Refilled Mystery Tokens
+
+**Date:** 10/06/26
+**Version:** 0.1.2
+**Status:** Confirmed
+
+### Decision
+
+The first playable prototype will use a 10x8 Adventure board.
+
+The current Adventure map is the Forest.
+
+Mystery Tokens are placed on the board to represent unknown Adventure encounters. At the start of each Adventure Phase, place 2 Mystery Tokens per player on empty valid spaces.
+
+Whenever a Mystery Token is removed, immediately place a new Mystery Token on an empty valid space.
+
+Players currently move up to 4 spaces on an Adventure turn.
+
+If a player moves onto a space containing a Mystery Token, they may pause their movement to interact with it. After resolving the revealed Adventure Card, the player may continue moving if they have movement remaining.
+
+A player may only interact with one Mystery Token per Adventure turn unless a card, skill, or boon says otherwise.
+
+### Reason
+
+A 10x8 board gives the Adventure phase more room to breathe, especially with 5 Adventure turns per player each round.
+
+Starting with only the Forest map keeps the first prototype focused while leaving room for future maps or regions.
+
+Allowing players to interact mid-movement and then continue moving makes Adventure turns feel smoother and less punishing.
+
+Refilling Mystery Tokens keeps the Adventure board active throughout the phase.
+
+### Impact
+
+The Adventure phase now has a clearer prototype board structure.
+
+Future testing should check:
+
+* Whether 10x8 is too large or too spacious.
+* Whether 2 Mystery Tokens per player is enough.
+* Whether refilling Mystery Tokens keeps the board active.
+* Whether allowing movement after interaction creates good flow or too much efficiency.
+* Whether limiting players to one Mystery Token interaction per turn feels right.
+
 
 ---
 
